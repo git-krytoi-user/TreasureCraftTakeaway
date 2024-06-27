@@ -1,0 +1,8 @@
+name: TreasureCraftTakeaway
+version: '1.0-SNAPSHOT'
+main: dev.r1nex.treasurecrafttakeaway.TreasureCraftTakeaway
+softdepend: [ProtocolLib, DecentHolograms]
+api-version: '1.16'
+commands:
+  treasure-takeaway:
+    aliases: [tct]

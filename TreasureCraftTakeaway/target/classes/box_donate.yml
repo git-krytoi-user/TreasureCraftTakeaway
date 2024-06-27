@@ -1,0 +1,84 @@
+settings:
+  peakRotationSpeed: 11.0
+  peakRotationRadius: 1.540
+  offsetX: 3
+  offsetY: 1
+  command: "lp user %player% parent set %item%"
+  animation: "WHEEL"
+  title: "&8[&eКоробка с привилегиями&8]"
+  push-back: true
+  desc:
+    - " "
+    - "&7Количество ключей: &e%keys%"
+    - " "
+    - "&eВыпадает: "
+    - "&f- &7&lMINER - &a0.85%"
+    - "&f- &a&lPALADIN - &a0.80%"
+    - "&f- &6&lMASTER - &a0.76%"
+    - "&f- &4&lGLADIATOR - &a0.50%"
+    - "&f- &b&lOVERLORD - &a0.39%"
+    - "&f- &9&lELDER - &a0.27%"
+    - "&f- &5&lPHANTOM - &a0.14%"
+    - "&f- &e&lK&6&lI&e&lN&6&lG - &a0.01%"
+    - " "
+    - "&7Приобрести ключи можно на сайте: &e<endniceworld.easydonate.ru>"
+  explosion:
+    enabled: false
+    power: 1.0
+  particles:
+    enabled: false
+    particle: FLAME
+
+black-list:
+  bypass: "treasure-craft.bypass.black-list"
+  list: []
+
+items:
+  miner:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.85
+    displayName: "&7&lMINER"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  paladin:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.80
+    displayName: "&a&lPALADIN"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  master:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.76
+    displayName: "&6&lMASTER"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  gladiator:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.50
+    displayName: "&4&lGLADIATOR"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  overlord:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.39
+    displayName: "&b&lOVERLORD"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  elder:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.27
+    displayName: "&9&lELDER"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  phantom:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.14
+    displayName: "&5&lPHANTOM"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  king:
+    item: ORANGE_SHULKER_BOX
+    chance: 0.01
+    displayName: "&e&lK&6&lI&e&lN&6&lG"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"

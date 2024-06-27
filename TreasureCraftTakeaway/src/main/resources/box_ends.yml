@@ -1,0 +1,49 @@
+settings:
+  peakRotationSpeed: 11.0
+  peakRotationRadius: 1.7
+  offsetX: 1
+  offsetY: 1
+  command: "eco give %player% %item%"
+  animation: "WHEEL"
+  title: "&8[&eКоробка с эндами&8]"
+  push-back: true
+  desc:
+    - " "
+    - "&7Количество ключей: &e%keys%"
+    - " "
+    - "&eВыпадает: "
+    - "&f- &e35 эндов - &a0.15%"
+    - "&f- &e50 эндов - &a0.10%"
+    - "&f- &e300 эндов - &a0.003%"
+    - " "
+    - "&7Приобрести ключи можно на сайте: &e<endniceworld.easydonate.ru>"
+  explosion:
+    enabled: false
+    power: 1.0
+  particles:
+    enabled: false
+    particle: FLAME
+
+black-list:
+  bypass: "treasure-craft.bypass.black-list"
+  list: []
+
+items:
+  "35":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.15
+    displayName: "&e35 эндов"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "50":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.10
+    displayName: "&e50 эндов"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "300":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.003
+    displayName: "&e300 эндов"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"

@@ -1,0 +1,91 @@
+settings:
+  peakRotationSpeed: 11.0
+  peakRotationRadius: 1.7
+  offsetX: 5
+  offsetY: 1
+  command: "eco give %player% %item%"
+  animation: "WHEEL"
+  title: "&8[&eКоробка с монетами&8]"
+  push-back: true
+  desc:
+    - " "
+    - "&7Количество ключей: &e%keys%"
+    - " "
+    - "&eВыпадает: "
+    - "&f- &e300 - &a0.65%"
+    - "&f- &e600 - &a0.55%"
+    - "&f- &e1200 - &a0.30%"
+    - "&f- &e2400 - &a0.15%"
+    - "&f- &e4800 - &a0.016%"
+    - "&f- &e9600 - &a0.03%"
+    - "&f- &e10600 - &a0.002%"
+    - "&f- &e15600 - &a0.0005%"
+    - "&f- &e26000 - &a0.0001%"
+    - " "
+    - "&7Приобрести ключи можно на сайте: &e<endniceworld.easydonate.ru>"
+  explosion:
+    enabled: false
+    power: 1.0
+  particles:
+    enabled: false
+    particle: FLAME
+
+black-list:
+  bypass: "treasure-craft.bypass.black-list"
+  list: []
+
+items:
+  "300":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.65
+    displayName: "&e300 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "600":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.55
+    displayName: "&e600 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "1200":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.30
+    displayName: "&e1200 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "2400":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.15
+    displayName: "&e2400 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "4800":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.016
+    displayName: "&e4800 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "9600":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.03
+    displayName: "&e9600 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "10600":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.002
+    displayName: "&e2400 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "15600":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.0005
+    displayName: "&e15600 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"
+  "26000":
+    item: ORANGE_SHULKER_BOX
+    chance: 0.0001
+    displayName: "&e26000 $"
+    custom-head:
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjlmM2FhMWQxYmU5NmNhY2U3OTU3NGU3MmZiMzFiNjQ2Y2I2YTJkMTkxMDFlYTEyN2Y5MjBlZmUwOTkifX19"

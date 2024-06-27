@@ -1,0 +1,62 @@
+spawn:
+  world: "Arena"
+  X: 412.0
+  Y: 65.0
+  Z: 379.0
+  Yaw: -90.0
+  Pitch: 90.0
+  Title:
+    - '#ICON: CHEST'
+    - '&8[&6Точка открытия коробок&8]'
+
+Configurations:
+  - box_donate.yml
+  - box_ends.yml
+  - box_kits.yml
+  - box_money.yml
+  - gui.yml
+
+Database:
+  enabled: true
+  dbHost: db.worldhosts.fun
+  dbName: s11676_server
+  dbUser: u11676_RJEMUHzHVz
+  dbPassword: '!@^=IC4AUVDKtIzaD!C6HCTC'
+
+Settings-rotation:
+  stopOperationRotateIfPlayerLeft: true
+  big-heads: false
+
+Messages:
+  storySortEmpty: "&8[&6Коробки&8] &7Отсортированные данные не найдены!"
+  storyEmpty: "&8[&6Коробки&8] &7История открытий коробок пуста."
+  alreadyOpen: '&8[&6Коробки&8] &7Коробку уже кто-то открывает, попробуйте позже'
+  noKey: '&8[&6Коробки&8] &7У Вас не хватает ключей от коробки: %box_name%'
+  noKeys: '&8[&6Коробки&8] &7У Вас нет ключей от коробок.'
+  blockBreak: '&8[&6Коробки&8] &7Вы не можете ломать этот блок.'
+  openingPointOfBox: '&8[&6Коробки&8] &7Точка открытия коробок была успешно установлена.'
+  specifiedBoxNotFound: '&8[&6Коробки&8] &7Коробка: %box_name% не найдена!'
+  playerNotConnected: '&8[&6Коробки&8] &7Игрок не подключён к серверу.'
+  playerHasNeverLogged: '&8[&6Коробки&8] &7Этот игрок никогда не заходил на сервер.'
+  givePlayerTheKeys: '&8[&6Коробки&8] &7Вы выдали игроку %count% ключей от коробки
+    %box_name%.'
+  playerNotKeysOfBox: '&8[&6Коробки&8] &7У этого игрока нету ключей от этой коробки.
+    /tct give'
+  takeTheKeysOfBox: '&8[&6Коробки&8] &7Вы забрали у игрока %count% ключей от коробки
+    %box_name%'
+  syntaxCommand:
+    usage: '&e/tct set|give|editor|story'
+    set: '&e/tct set - Смотрите на блок'
+    give: '&e/tct give [игрок] [коробка] [количество]'
+  messagesRelatedOpeningBox:
+    open:
+      - " "
+      - "&7| &fИгрок: &e%player% &fоткрывает коробку."
+      - "&7| &fСкорее прописывай &a/warp case, чтобы не пропустить ничего."
+      - " "
+    wonThePrize:
+      - " "
+      - "&7| &fИгрок: &e%player% &fзавершает открытие коробки и получает приз - %prize%"
+      - " "
+      - "&7| &fПереходи на сайт &e<EndNiceWorld.easydonate.ru> &fи покупай ключи к коробкам, если хочешь так-же!"
+      - " "
